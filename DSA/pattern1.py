@@ -1,8 +1,8 @@
+n = int(input("Enter the number : "))
 
 
-
-for outer in range(4):
-    for inner in range(4):
+for outer in range(n):
+    for inner in range(n):
         print("*", end=" ")
     
     print()
